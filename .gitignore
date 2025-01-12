@@ -1,0 +1,117 @@
+# Archivos generales del sistema
+.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+*.swp
+*~
+*.bak
+*.tmp
+.vscode/
+.idea/
+.project
+.classpath
+*.log
+
+# Entorno virtual de Python (Backend)
+venv/
+.venv/
+env/
+.env/
+
+# Dependencias de Node.js (Frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archivos de compilación y construcción (Frontend)
+dist/
+build/
+.cache
+.parcel-cache
+
+# Archivos específicos de Android
+.gradle/
+build/
+*.apk
+*.ap_
+*.dex
+*.class
+*.iml
+local.properties
+.externalNativeBuild
+*.keystore
+
+# Archivos específicos de iOS
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+Pods/
+build/
+DerivedData/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.perspectivev4
+
+# Archivos de configuración local (pueden contener información sensible)
+config/*.ini # Si no quieres trackear ningún archivo .ini en config/
+# config/development.ini # Si solo quieres ignorar development.ini y trackear los otros
+# Si tienes otros archivos de configuración local que no deben ser versionados
+# config/local_settings.py
+# .env
+
+# Archivos de IDEs
+*.ipr
+*.iws
+out/
+
+# Archivos de sistema operativo
+.AppleDouble
+.LSOverride
+
+# Archivos de editores de texto
+*.swo
+*.orig
+
+# Archivos de paquetes
+*.egg-info
+
+# Archivos de debug
+*.db
+*.sqlite
+
+# Archivos temporales de compilación
+*.o
+*.obj
+*.elf
+*.hex
+
+# Archivos de caché de dependencias
+.gradle/caches/
+.gradle/daemon/
+.gradle/wrapper/
+.idea/caches/
+.idea/shelf/
+
+# Archivos de despliegue
+*.war
+*.jar
+*.ear
+
+# Logs
+*.log
+logs/
+
+# Carpetas de datos
+data/
+
+# Archivos generados por herramientas de análisis de código
+.sonar/
+
+# Archivos de cobertura de pruebas
+coverage/
+htmlcov/
+.coverage
+*.profraw
+*.profdata
