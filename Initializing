@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Crear y activar el entorno virtual
+python3 -m venv venv
+source venv/bin/activate
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Exportar variables de entorno necesarias
+export FLASK_APP=src/backend/app.py
+export FLASK_ENV=development
+
+# Iniciar el servidor de desarrollo de Flask
+flask run --host=0.0.0.0 --port=8080
