@@ -1,0 +1,13 @@
+[server]
+port = 8080
+host = 0.0.0.0
+
+[database]
+url = postgresql://user:password@localhost:5432/mydatabase
+
+[logging]
+level = DEBUG
+file = /var/log/alphapp/development.log
+
+[security]
+secret_key = your_secret_key_here
