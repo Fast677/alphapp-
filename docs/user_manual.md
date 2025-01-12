@@ -29,5 +29,5 @@ If you encounter any problems, please refer to the troubleshooting section of th
 
 ## Contact Us
 
-If you have any questions or suggestions, please contact us at support@alphapp.com.
+If you have any questions or suggestions, please contact us at support@alphapp.xyz.
 
