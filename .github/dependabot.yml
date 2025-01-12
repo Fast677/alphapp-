@@ -5,7 +5,18 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  # Actualizaciones para npm
+  - package-ecosystem: "npm"
+    directory: "/" # Ubicación del archivo package.json
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "deps"
+
+  # Actualizaciones para Python (pip)
+  - package-ecosystem: "pip"
+    directory: "/" # Ubicación del archivo requirements.txt
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
