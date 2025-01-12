@@ -1,0 +1,8 @@
+# This is an empty file. You can start writing your code here.
+# For example, you can define a simple function:
+
+def greet(name):
+    return f"Hello, {name}!"
+
+# You can call the function like this:
+print(greet("World"))
