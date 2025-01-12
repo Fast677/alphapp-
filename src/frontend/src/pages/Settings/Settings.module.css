@@ -1,1 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 64px);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.settingsItem {
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.settingsLabel {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.settingsInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.saveButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .settingsItem {
+    width: 90%;
+  }
+}
 
