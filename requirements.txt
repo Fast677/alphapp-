@@ -1,5 +1,5 @@
 
-requests==2.31.0
+requests==2.32.2
 beautifulsoup4==4.11.1
 lxml==4.9.1
 selenium==4.11.0
