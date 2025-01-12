@@ -1,6 +1,6 @@
 # Alphapp
 
-El proyecto Alphapp se caracteriza por una estructura de repositorio bien definida y meticulosamente organizada, diseñada para optimizar el desarrollo, el mantenimiento y la escalabilidad del software. La organización se basa en la agrupación de archivos por función en directorios específicos.
+Alphapp se caracteriza por una estructura de repositorio bien definida y meticulosamente organizada, diseñada para optimizar el desarrollo, el mantenimiento y la escalabilidad del software. La organización se basa en la agrupación de archivos por función en directorios específicos.
 
 ## Descripción del Proyecto
 
