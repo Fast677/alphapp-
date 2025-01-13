@@ -1,0 +1,8 @@
+blank_issues_enabled: Falso.
+contact_links:
+ - nombre: Apoyo a la comunidad de GitHub 
+ URL: https://github.com/orgs/community/discussions 
+ about: Por favor, haga y responda preguntas aquí. 
+ - nombre: GitHub Security Bug Bounty 
+ URL: https://bounty.github.com/ 
+ about: Por favor, informe de las vulnerabilidades de seguridad aquí. 
