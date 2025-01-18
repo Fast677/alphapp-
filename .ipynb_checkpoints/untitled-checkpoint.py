@@ -1,1 +1,0 @@
-https://gitlab.com/grupo8564703/alpi_pro.git
